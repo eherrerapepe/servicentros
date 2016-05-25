@@ -54,6 +54,6 @@
     {{-- Integramos google maps --}}
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB7knr59gRMDxo_VtZbt3xSx1x3e5j35M8"></script>
     <script src="{{ asset('assets/googleMaps/map.js') }}"></script>
-    @yield('scriptForMap')
+    @yield('scriptForMap') {{-- Contenedor para los scripts de la api de google maps --}}
 </body>
 </html>
